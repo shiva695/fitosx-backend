@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "activities",
+  "info": {
+    "name": "Activities"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ActivityId": {
+      "type": "string"
+    },
+    "ActivityName": {
+      "type": "string"
+    },
+    "ActivityStatus": {
+      "type": "boolean"
+    },
+    "Thumbnail": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "string"
+    },
+    "Duration": {
+      "type": "string"
+    },
+    "DifficultyLevel": {
+      "type": "integer"
+    },
+    "Category": {
+      "type": "string"
+    }
+  }
+}

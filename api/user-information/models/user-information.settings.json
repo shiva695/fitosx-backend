@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_informations",
+  "info": {
+    "name": "UserInformation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email"
+    },
+    "Level": {
+      "type": "integer"
+    },
+    "UserID": {
+      "type": "string"
+    },
+    "Avatarurl": {
+      "type": "string"
+    }
+  }
+}

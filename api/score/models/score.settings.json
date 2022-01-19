@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "scores",
+  "info": {
+    "name": "Score",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ActivityId": {
+      "type": "string"
+    },
+    "UserID": {
+      "type": "string"
+    },
+    "Score": {
+      "type": "integer"
+    },
+    "TimeSpent": {
+      "type": "integer"
+    },
+    "Day": {
+      "type": "date"
+    }
+  }
+}
